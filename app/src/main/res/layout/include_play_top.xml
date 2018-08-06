@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#c99f9e9e">
+<Button
+    android:id="@+id/btn_back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="?android:attr/borderlessButtonStyle"
+    android:text="back"
+    android:layout_centerVertical="true"
+    android:layout_alignParentLeft="true"/>
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="setting"
+        />
+</RelativeLayout>
